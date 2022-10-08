@@ -8,11 +8,11 @@
 @import './components/header/positioning';
 @import './components/header/active';
 
-@import './components/hero/title';
-@import './components/hero/banner';
-@import './components/hero/modal';
-@import './components/hero/form';
-@import './components/hero/active';
+@import './components/hero-section/title';
+@import './components/hero-section/banner';
+@import './components/hero-section/modal';
+@import './components/hero-section/form';
+@import './components/hero-section/active';
 
 @import './components/advances-section/title';
 @import './components/advances-section/thumb-icon';
@@ -39,3 +39,9 @@
 @import './components/footer/form-description';
 @import './components/footer/positioning';
 @import './components/footer/active';
+
+@import './components/portfolio/title';
+@import './components/portfolio/btn';
+@import './components/portfolio/products-description';
+@import './components/portfolio/positioning';
+@import './components/portfolio/active';

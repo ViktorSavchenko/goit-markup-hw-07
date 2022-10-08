@@ -1,0 +1,20 @@
+.filter-list__btn {
+  padding: 6px 22px;
+
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+
+  color: getColor('primary');
+
+  background-color: getBgcbtn('wk-primary');
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
