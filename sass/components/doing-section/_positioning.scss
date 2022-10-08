@@ -1,0 +1,34 @@
+.doing-section--positioning {
+  padding-bottom: 94px;
+}
+
+.diong-title--positioning {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.doing-list {
+  &--positioning {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  &__item--positioning {
+    flex-basis: calc((100% - 30px * 2) / 3);
+  }
+}
+
+.product-thumb {
+  &--positioning {
+    position: relative;
+  }
+
+  &__meta--positioning {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+  }
+}

@@ -1,0 +1,20 @@
+.nav-list__link {
+  &--active:hover,
+  &--active:focus {
+    color: getActive('blue');
+  }
+}
+
+.contact-list {
+  &__link {
+    &--active:hover,
+    &--active:focus {
+      color: getActive('blue');
+    }
+  }
+
+  &__link--active:hover &__icon--active,
+  &__link--active:focus &__icon--active {
+    fill: getActive('blue');
+  }
+}

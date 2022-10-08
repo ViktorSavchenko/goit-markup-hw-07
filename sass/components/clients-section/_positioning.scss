@@ -1,0 +1,22 @@
+.clients-section--positioning {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-title--positioning {
+  margin-bottom: 50px;
+
+  text-align: center;
+}
+
+.clients-list {
+  &--positioning {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+
+.clients-list__item--positioning {
+  flex-basis: calc((100% - 30px * 5) / 6);
+}

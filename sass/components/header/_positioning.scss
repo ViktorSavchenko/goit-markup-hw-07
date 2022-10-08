@@ -1,0 +1,24 @@
+.container--positioning {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list--positioning {
+  margin-left: 93px;
+}
+
+.nav-list__item--positioning:not(:first-child) {
+  margin-left: 53px;
+}
+
+.contact-list--positioning {
+  margin-left: auto;
+}
+
+.contact-list__item--positioning:not(:first-child) {
+  margin-left: 30px;
+}
+
+.contact-list__icon--positioning {
+  margin-right: 10px;
+}

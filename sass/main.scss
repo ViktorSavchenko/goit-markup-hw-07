@@ -1,0 +1,41 @@
+@import './utils/global';
+@import './utils/vars';
+
+@import './components/logo';
+
+@import './components/header/nav-list';
+@import './components/header/contact-list';
+@import './components/header/positioning';
+@import './components/header/active';
+
+@import './components/hero/title';
+@import './components/hero/banner';
+@import './components/hero/modal';
+@import './components/hero/form';
+@import './components/hero/active';
+
+@import './components/advances-section/title';
+@import './components/advances-section/thumb-icon';
+@import './components/advances-section/description';
+@import './components/advances-section/positioning';
+
+@import './components/doing-section/title';
+@import './components/doing-section/_product-thumb';
+@import './components/doing-section/description';
+@import './components/doing-section/positioning';
+
+@import './components/team-section/title';
+@import './components/team-section/description';
+@import './components/team-section/positioning';
+@import './components/team-section/active';
+
+@import './components/clients-section/title';
+@import './components/clients-section/clients';
+@import './components/clients-section/positioning';
+@import './components/clients-section/active';
+
+@import './components/footer/address-descriotion';
+@import './components/footer/social-thumb';
+@import './components/footer/form-description';
+@import './components/footer/positioning';
+@import './components/footer/active';

@@ -1,0 +1,22 @@
+.advances-secrion--positioning {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.adv-list--positioning {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.adv-list__item--positioning {
+  flex-basis: calc((100% - 30px * 3) / 4);
+}
+
+.adv-list__thumb-icon--positioning {
+  margin-bottom: 30px;
+}
+
+.adv-list__name--positioning {
+  margin-bottom: 10px;
+}

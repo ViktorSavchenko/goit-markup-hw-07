@@ -1,0 +1,41 @@
+.team-section--positioning {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  background-color: getBgc('secondary');
+}
+
+.team-title--positioning {
+  margin-bottom: 50px;
+
+  text-align: center;
+}
+
+.team-list {
+  &--positioning {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  &__item--positioning {
+    flex-basis: calc((100% - 30px * 3) / 4);
+  }
+
+  &__name--positioning {
+    margin-bottom: 10px;
+  }
+
+  &__prof--positioning {
+    margin-bottom: 16px;
+  }
+}
+
+.team-thumb {
+  padding: 30px 32px;
+  text-align: center;
+}
+
+.social-list__item--positioning:not(:first-child) {
+  margin-left: 10px;
+}

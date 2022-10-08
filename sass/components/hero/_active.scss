@@ -1,0 +1,34 @@
+.hero-btn--active:hover,
+.hero-btn--active:focus {
+  background-color: getActive('btn');
+}
+
+.modal-btn:hover .icon,
+.modal-btn:focus .icon {
+  fill: getActive('blue');
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: 0;
+  outline-offset: 0;
+  border-color: getActive('blue');
+}
+
+.form-input:focus + .form-icon {
+  fill: getActive('blue');
+}
+
+.form-checkbox:checked + .checkbox-action {
+  border-color: getActive('blue');
+  background-color: getActive('blue');
+}
+
+.form-checkbox:focus + .checkbox-action {
+  border-color: getActive('blue');
+}
+
+.form-btn:hover,
+.form-btn:focus {
+  background-color: getActive('btn');
+}

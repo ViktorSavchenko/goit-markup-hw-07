@@ -1,0 +1,17 @@
+.contact-list {
+  display: flex;
+}
+
+.contact-list {
+  display: inline-flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+.contact-list--current-color {
+  color: #2196f3;
+}/*# sourceMappingURL=cotact-list.css.map */

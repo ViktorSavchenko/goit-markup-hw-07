@@ -1,0 +1,15 @@
+.clients-list {
+  &__link {
+    &--active:hover,
+    &--active:focus {
+      border-color: getActive('blue');
+    }
+  }
+
+  &__link {
+    &--active:hover .clients_list__icon--active,
+    &--active:focus .clients_list__icon--active {
+      fill: getActive('blue');
+    }
+  }
+}

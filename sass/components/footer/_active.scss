@@ -1,0 +1,11 @@
+.adrs-list__link {
+  &--active:hover,
+  &--active:focus {
+    color: getActive('blue');
+  }
+}
+
+.footer-form__btn--active:hover,
+.footer-form__btn--active:focus {
+  background-color: getActive('btn');
+}
